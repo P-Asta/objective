@@ -29,7 +29,6 @@ body{
     border: 0;
 
     font-size: 50px;
-    top: 5px;
     color: white;
     margin-left: 15px;
     background-color: #00000000;
@@ -99,7 +98,7 @@ body{
     border-color: white;
     color: white;
     left: 10px;
-    top: 42%;
+    top: 120px;
 
 
     border-radius: 30px;
