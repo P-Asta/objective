@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    --black: #1B1E23;
+    --perple: #7289DA;
+    --blue: #3366FF;
+    transition: all .5s;
+}
+
+::-webkit-scrollbar{ display: none }
+
+body{
+    background-color : var(--black);
+}
+
+.bg{
+    width: 100%;
+    height: 80px;
+    background-color: var(--perple);
+}
+.bg .main{
+    position: relative;
+    border: 0;
+
+    font-size: 50px;
+    top: 5px;
+    color: white;
+    margin-left: 15px;
+    background-color: #00000000;
+    transition: all 1s;
+}
+.bg .main:hover{
+    color: rgb(202, 202, 202);
+}
+
+
+
+.main {
+    text-align: center;
+}
+.main img{
+    position: relative;
+    display: flex;
+    
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 30%;
+
+    -webkit-user-select:none;
+}
+.main h1{
+    position: relative;
+    color: white;
+    top: -100%;
+    font-size: 200%;
+    padding-left : 100px;
+    padding-right : 100px;
+}
+
+
+.bots{
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    width : 100%;
+    height: 200%;
+
+    align-items: center;
+    display: flex;
+
+    margin-top: 500px;
+
+    flex-flow: row wrap;
+    gap: 100px;
+}
+
+.bots .bot{
+    width: 100%;
+    height: 300px;
+    border-radius: 0;
+    
+}
+.bots .name{
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 500%;
+}
+
+.bots input{
+    position: relative;
+    background-color: var(--black);
+    border-color: white;
+    color: white;
+    left: 10px;
+    top: 42%;
+
+
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 200%;
+}
+.bots input:hover{
+    box-shadow: 0 0 10px white;
+    border-color: white;
+}
+
+
+
+
+
+
+@media screen and (min-width:1290px) {
+    .main h1{
+        padding-left : 50px;
+        padding-right : 50px;
+        font-size: 500%;
+    }
+}
+@media screen and (min-width:650px) {
+    .bots .bot{
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 30px;
+    }
+
+    .main h1{
+        font-size: 400%;
+    }
+}
