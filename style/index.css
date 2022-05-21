@@ -96,6 +96,7 @@ body{
     position: relative;
     background-color: var(--black);
     border-color: white;
+    border-style: solid;
     color: white;
     left: 10px;
     top: 120px;
