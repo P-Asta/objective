@@ -11,6 +11,13 @@
     --perple: #7289DA;
     --blue: #3366FF;
     transition: all .5s;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.LauncherIconstyled__LauncherWrapper-mnslcf-0{
+    background-color: var(--black);
 }
 
 ::-webkit-scrollbar{ display: none }
@@ -42,7 +49,6 @@ body{
 .bg .main:hover{
     color: rgb(202, 202, 202);
 }
-
 
 
 .main {
@@ -86,7 +92,7 @@ body{
 
 .bots .bot{
     width: 100%;
-    height: 300px;
+    height: 500px;
     border-radius: 0;
     background-image: var(--img);
 }
@@ -102,8 +108,10 @@ body{
     background-color: var(--black);
     border-color: white;
     color: white;
-    left: 10px;
-    top: 40%;
+
+    margin-left: 10px;
+    margin-top: 333px;
+
 
     border-radius: 30px;
     width: 150px;
@@ -134,6 +142,10 @@ body{
         margin-left: 50px;
         margin-right: 50px;
         border-radius: 30px;
+        height: 300px;
+    }
+    .bots input{
+        margin-top: 130px;
     }
 
     .main h1{
