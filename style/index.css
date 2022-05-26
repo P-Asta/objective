@@ -16,10 +16,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.LauncherIconstyled__LauncherWrapper-mnslcf-0{
-    background-color: var(--black);
-}
-
 ::-webkit-scrollbar{ display: none }
 
 body{
@@ -94,8 +90,8 @@ body{
     width: 100%;
     height: 500px;
     border-radius: 0;
-    background-image: var(--img);
 }
+
 .bots .name{
     color: white;
     padding-left: 20px;
