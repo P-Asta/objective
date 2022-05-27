@@ -20,6 +20,14 @@
 h1{
     padding-top: 30px;
 }
+h2{
+    padding-top: 10px;
+}
+
+.text{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 ::-webkit-scrollbar{ display: none }
 
