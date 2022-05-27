@@ -10,23 +10,29 @@
 </head>
 <body>
     <div class = "bg">
-        <input class = "main" type="button" value="{objective}">
+        <input class = "main" type="button" value="{objective}" onclick="mainPage()">
+        <!-- <input class = "main" type="button" value="{objective}"> -->
     </div>
     <div class="main">
         <img src="img/discord.svg"><br/>
         <h1>취미로 개발하는팀!</h1>
     </div>
     <div class = "bots">
-        <div class="bot" style="background-image: linear-gradient(45deg , var(--blue) , var(--perple)),url('img/bot.png')">
+        <div class="bot" style="background-image: linear-gradient(45deg , rgb(114, 114, 114) , rgb(182, 182, 182))">
             <div class="name">5-23</div>
-            <input type="button" value="초대하기">
+            <input type="button" value="초대하기" onclick="window.open('https://discord.com/oauth2/authorize?client_id=871348411356545057&permissions=8&scope=bot%20applications.commands')">
         </div>
 
-        <div class="bot" style="background: linear-gradient(-45deg , var(--blue) , var(--perple))">
-            <div class="name">5-24</div>
-            <input type="button" value="초대하기">
+        <div class="bot" style="background-image: linear-gradient(45deg , var(--blue) , var(--perple))">
+            <div class="name">안녕봇</div>
+            <input type="button" value="초대하기"  onclick="window.open('https://discord.com/oauth2/authorize?client_id=929174234897461248&scope=bot&permissions=8')">
         </div>
     </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
 
 </body>
 </html>
