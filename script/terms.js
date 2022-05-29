@@ -3,19 +3,3 @@
 function mainPage(){
     location.href = "https://objective.tk";
 }
-
-// async function getBOT(NAME){
-//     const req = await fetch(`https://objective.scratcher5-23.repl.co/bots/${NAME}`)
-//     let res = await req.json()
-//     console.log(res.data.servers)
-// }
-
-window.onload = async()=>{
-    const req1 = await fetch(`https://objective.scratcher5-23.repl.co/bots/5-23`)
-    let res1 = await req1.json()
-    document.getElementById("descriptionHELLO").innerHTML = `${res1.data.servers}개의 서버에서 투표를 하고있는있는 5-23봇!`
-
-    const req2 = await fetch(`https://objective.scratcher5-23.repl.co/bots/hello`)
-    let res2 = await req2.json()
-    document.getElementById("description523").innerHTML = `${res2.data.servers}개의 서버에서 놀아주고있는 안녕봇!`
-}

@@ -100,6 +100,14 @@ body{
     font-size: 500%;
 }
 
+.bots .bot h2{
+    position: absolute;
+    color: white;
+
+    margin-left: 30px;
+    padding-top: 100px;
+}
+
 .bots .bot input{
     position: relative;
     background-color: var(--black);
@@ -116,6 +124,7 @@ body{
     font-size: 200%;
 
     border-style : solid;
+    
 }
 .bots .bot input:hover{
     box-shadow: 0 0 10px white;
