@@ -1,33 +1,72 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <title>{objective}</title>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{objective}</title>
+    
+    <meta property="og:title" content = "{objective}">
+    <meta property="og:site_name" content = "objective">
+    <link rel = "icon" href = "https://media.discordapp.net/stickers/932085899796295722.webp?size=240">
+
+    <meta name="twitter:card" content = "summary_large_image">
+    <meta property="og:image" content = "https://site-main.scratcher5-23.repl.co/img/yt_logo_2022.png">
+    <meta property="og:image:alt" content = "Bot Preview Image">
+    <meta property="og:image:width" content = "2048">
+    <meta property="og:image:height" content = "1170">
+    
+    <meta property="og:description" content="추가요청 : 5-23#6290 봇에게 '5요청'">
+    <meta property="og:url" content="https://site-main.scratcher5-23.repl.co">
+    
     <script src = "script/index.js"></script>
     <link rel="stylesheet" href="style/index.css">
+
+    <script src="https://twemoji.maxcdn.com/v/14.0.2/twemoji.min.js" integrity="sha384-32KMvAMS4DUBcQtHG6fzADguo/tpN1Nh6BAJa2QqZc6/i0K+YPQE+bWiqBRAWuFs" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class = "bg">
-        <input class = "main" type="button" value="{objective}" onclick="mainPage()">
-        <!-- <input class = "main" type="button" value="{objective}"> -->
-    </div>
+    <!-- <div class = "bg">
+        <input class = "main" type="button" value="home" onclick="mainPage()">
+        <div class = "menu" onclick="menuCheck()">
+            <span class = "menuItem"></span>
+            <span class = "menuItem"></span>
+            <span class = "menuItem"></span>
+        </div>
+
+    </div> -->
     <div class="main">
         <img src="img/discord.svg"><br/>
-        <h1>취미로 개발하는팀!</h1>
+        <h1>{objective}</h1>
     </div>
+
+    <div style = "margin-top: 500px;"></div>
+
+    <div class = "servers">
+        <div class="discord" style="background-image: linear-gradient(45deg , rgb(114, 114, 114) , rgb(182, 182, 182));">
+            <div class="img523" style="background-image: url(img/bots/5-23.png);">
+                <div class="name">5-23</div>
+                <h2 id = "description523">[load...]개의 서버에서 투표를 하고있는있는 5-23봇!</h2>
+                <input type="button" value="초대하기" onclick="window.open('https://discord.com/oauth2/authorize?client_id=871348411356545057&permissions=8&scope=bot%20applications.commands')">
+            </div>
+        </div>
+    </div>
+
     <div class = "bots">
-        <div class="bot" style="background-image: linear-gradient(45deg , rgb(114, 114, 114) , rgb(182, 182, 182))">
-            <div class="name">5-23</div>
-            <h2 id = "description523">0개의 서버에서 투표를 하고있는있는 5-23봇!</h2>
-            <input type="button" value="초대하기" onclick="window.open('https://discord.com/oauth2/authorize?client_id=871348411356545057&permissions=8&scope=bot%20applications.commands')">
+        <div class="bot" style="background-image: linear-gradient(45deg , rgb(114, 114, 114) , rgb(182, 182, 182));">
+            <div class="img523" style="background-image: url(img/bots/5-23.png);">
+                <div class="name">5-23</div>
+                <h2 id = "description523">[load...]개의 서버에서 투표를 하고있는있는 5-23봇!</h2>
+                <input type="button" value="초대하기" onclick="window.open('https://discord.com/oauth2/authorize?client_id=871348411356545057&permissions=8&scope=bot%20applications.commands')">
+            </div>
         </div>
 
         <div class="bot" style="background-image: linear-gradient(45deg , var(--blue) , var(--perple))">
-            <div class="name">안녕봇</div>
-            <h2 id = "descriptionHELLO">0개의 서버에서 놀아주고있는 안녕봇!</h2>
-            <input type="button" value="초대하기"  onclick="window.open('https://discord.com/oauth2/authorize?client_id=929174234897461248&scope=bot&permissions=8')">
+            <div class="imgHello" style="background-image: url(img/bots/hello.png);">
+                <div class="name">안녕봇</div>
+                <h2 id = "descriptionHELLO">[load...]개의 서버에서 놀아주고있는 안녕봇!</h2>
+                <input type="button" value="초대하기"  onclick="window.open('https://discord.com/oauth2/authorize?client_id=929174234897461248&scope=bot&permissions=8')">
+            </div>
         </div>
     </div>
     <br/>
@@ -35,6 +74,20 @@
     <br/>
     <br/>
     <br/>
+
+    <div class = "bg">
+        <input class = "main" type="button" value="home" onclick="mainPage()">
+        <div class = "menu" onclick="menuCheck()">
+            <span class = "menuItem"></span>
+            <span class = "menuItem"></span>
+            <span class = "menuItem"></span>
+        </div>
+
+    </div>
+    <div class = "modal" id = "modal">
+        <input type="button" value="팀원" onclick="movePage(`team.html`)">
+        <input type="button" value="규정" onclick="movePage(`terms.html`)">
+    </div>
 
 </body>
 </html>

@@ -10,11 +10,14 @@
     --black: #1B1E23;
     --perple: #7289DA;
     --blue: #3366FF;
+    --darkBlue: #2f5ce2;
     transition: all .5s;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+
 
 ::-webkit-scrollbar{ display: none }
 
@@ -23,12 +26,13 @@ body{
 }
 
 .bg{
+    position: fixed;
+    top: 0;
     width: 100%;
     height: 60px;
     background-color: var(--perple);
     justify-items: center;
     align-items: center;
-    display: flex;
 }
 .bg .main{
     position: relative;
@@ -36,15 +40,35 @@ body{
 
     font-size: 50px;
     color: white;
-    margin-left: 15px;
+    margin-left: 3px;
+    margin-top: 2px;
     background-color: #00000000;
-
-    
 }
-
 .bg .main:hover{
     color: rgb(202, 202, 202);
 }
+
+.bg .menu{
+    margin-top: 14px;
+    margin-right: 9px;
+    position: relative;
+    float: right;
+}
+
+.bg .menu span{
+    position: relative;
+    display: block;
+    background-color: var(--blue);
+
+    width: 60px;
+    height: 11px;
+    border-radius: 100px;
+}
+.bg .menu :nth-child(1){opacity: 1;top: -5px;}
+.bg .menu :nth-child(2){opacity: 1;}
+.bg .menu :nth-child(3){opacity: 1;top: 5px;}
+
+
 
 
 .main {
@@ -55,7 +79,7 @@ body{
     display: flex;
     
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 300px;
     width: 30%;
 
     -webkit-user-select:none;
@@ -63,7 +87,6 @@ body{
 .main h1{
     position: relative;
     color: white;
-    top: -100%;
     font-size: 200%;
     padding-left : 100px;
     padding-right : 100px;
@@ -80,8 +103,6 @@ body{
     align-items: center;
     display: flex;
 
-    margin-top: 500px;
-
     flex-flow: row wrap;
     gap: 100px;
 }
@@ -90,6 +111,21 @@ body{
     width: 100%;
     height: 500px;
     border-radius: 0;
+}
+
+.bot .img523{
+    height: 500px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50px;
+}
+.bot .imgHello{
+    height: 500px;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 150px;
 }
 
 .bots .name{
@@ -104,8 +140,7 @@ body{
     position: absolute;
     color: white;
 
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 30px;
     padding-top: 100px;
 }
 
@@ -125,25 +160,43 @@ body{
     font-size: 200%;
 
     border-style : solid;
-    
+    cursor: pointer;
 }
 .bots .bot input:hover{
     box-shadow: 0 0 10px white;
     border-color: white;
 }
 
+.modal{
+    position: fixed;
+    /* position: absolute; */
+    display: none;
 
-
-.info {
-    margin-top: 150px;
-    height: 200px;
-    background-color: azure;
+    top: 60px;
+    background-color: var(--black);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
 }
-a{
-    color: var(--blue);
-    text-decoration: none;
+.modal input{
+    background-color: var(--blue);
+    border: 0;
+    color: white;
+
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 200%;
+
+    border-style : solid;
     cursor: pointer;
 }
+.modal input:hover{
+    background-color: var(--darkBlue);
+}
+
+
+
 
 
 
@@ -155,6 +208,14 @@ a{
     }
 }
 @media screen and (min-width:650px) {
+    .bg .main{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .bg .menu{
+        margin-top: 24px;
+        margin-right: 18px;
+    }
     .bots .bot{
         margin-left: 50px;
         margin-right: 50px;
@@ -166,10 +227,24 @@ a{
         top: 110px;
     }
 
+    .bot .img523{
+        height:300px;
+        background-position-x: 100%;
+        background-position-y: -100px;
+    }
+    .bot .imgHello{
+        height:300px;
+        background-position-x: 98%;
+        background-position-y: 30px;
+    }
+
     .main h1{
         font-size: 400%;
     }
     .bg{
         height: 80px;
+    }
+    .modal{
+        top: 70px;
     }
 }

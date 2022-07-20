@@ -23,6 +23,9 @@ h1{
 h2{
     padding-top: 10px;
 }
+h3{
+    padding-top: 5px;
+}
 
 .text{
     padding-left: 10px;
@@ -51,8 +54,6 @@ body{
     color: white;
     margin-left: 15px;
     background-color: #00000000;
-
-    
 }
 
 .bg .main:hover{
@@ -66,27 +67,11 @@ a{
 }
 
 
-/* @media screen and (min-width:1290px) {
-} */
-@media screen and (min-width:650px) {
-    .bots .bot{
-        margin-left: 50px;
-        margin-right: 50px;
-        border-radius: 30px;
-        height: 300px;
-    }
-    .bots .bot input{
-        margin-top: 130px;
-        top: 110px;
-    }
 
-    .main h1{
-        font-size: 400%;
-    }
+@media screen and (min-width:1290px) {
+}
+@media screen and (min-width:650px) {
     .bg{
         height: 80px;
-    }
-    .modal{
-        top: 80px;
     }
 }
