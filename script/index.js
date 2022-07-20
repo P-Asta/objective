@@ -23,6 +23,10 @@ window.onload = async()=>{
     const req2 = await fetch(`https://objective.scratcher5-23.repl.co/bots/hello`)
     let res2 = await req2.json()
     document.getElementById("descriptionHELLO").innerHTML = `${res2.data.servers}개의 서버에서 놀아주고있는 안녕봇!`
+
+    // const req3 = await fetch(`https://objective.scratcher5-23.repl.co/servers/bot`)
+    // let res3 = await req3.json()
+    // document.getElementById("descriptionHELLO").innerHTML = `${res2.data.members}개의 서버에서 놀아주고있는 안녕봇!`
 }
 
 function menuCheck(){
