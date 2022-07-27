@@ -2,10 +2,10 @@
 | --- |
 |[1. 목적](https://github.com/5-23/objective/blob/main/terms.md#1-목적)|
 |[2. 정의](https://github.com/5-23/objective/blob/main/terms.md#2-정의)|
-|[3. 규약의 개정]()|
-|[4. 규약의 적용범위]()|
-|[5. 관리자의 책임]()|
-|[제쟤체계]()|
+|[3. 규약의 개정](https://github.com/5-23/objective/blob/main/terms.md#3-규약의-개정)|
+|[4. 규약의 적용범위](https://github.com/5-23/objective/blob/main/terms.md#4‐규약의-적용범위)|
+|[5. 관리자의 책임](https://github.com/5-23/objective/blob/main/terms.md#5-관리자의-책임)|
+|[제쟤체계](https://github.com/5-23/objective/blob/main/terms.md#제졔채계)|
 
 # 1. 목적
 본 규약의 목적은 {objective} 커뮤니티 내의 `질서 유지` 및 `공공복리를` 실현하고 대한민국 법률과 디스코드 약관의 준수를 장려함으로써 커뮤니티 내 사용자들의 인권을 보호하고 자유롭고 편안한 이용을 보장하기 위함으로 한다.
