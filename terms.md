@@ -1,7 +1,7 @@
 | 순서 |
 | --- |
-|[1. 목적](https://github.com/5-23/objective/blob/main/terms.md#1-%EB%AA%A9%EC%A0%81)|
-|[2. 정의](https://github.com/5-23/objective/blob/main/terms.md#1-%EB%AA%A9%EC%A0%81)|
+|[1. 목적](https://github.com/5-23/objective/blob/main/terms.md#1-목적)|
+|[2. 정의](https://github.com/5-23/objective/blob/main/terms.md#2-정의)|
 |[3. 규약의 개정]()|
 |[4. 규약의 적용범위]()|
 |[5. 관리자의 책임]()|
