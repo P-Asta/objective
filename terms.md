@@ -1,6 +1,6 @@
 | 순서 |
 | --- |
-|[1. 목적](https://google.com)|
+|[1. 목적](https://github.com/5-23/objective/blob/main/terms.md#1-%EB목적)|
 2. 정의
 3. 규약의 개정
 4. 규약의 적용범위
