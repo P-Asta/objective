@@ -3,11 +3,10 @@
 |[1. 목적](https://github.com/5-23/objective/blob/main/terms.md#1-목적)|
 |[2. 정의](https://github.com/5-23/objective/blob/main/terms.md#2-정의)|
 |[3. 규약의 개정](https://github.com/5-23/objective/blob/main/terms.md#3-규약의-개정)|
-|[4. 규약의 적용 대상](https://github.com/5-23/objective/blob/main/terms.md#4-%EA%B7%9C%EC%95%BD%EC%9D%98-%EC%A0%81%EC%9A%A9-%EB%8C%80%EC%83%81)|
+|[4. 규약의 적용 대상](https://github.com/5-23/objective/blob/main/terms.md#4-규약의-적용-대상)|
 |[5. 관리자의 책임](https://github.com/5-23/objective/blob/main/terms.md#5-관리자의-책임)|
 |[6. 부정행위 등의 금지](https://github.com/5-23/objective/blob/main/terms.md#6-불법행위-등의-금지)|
-|[7. 링크 부정사용 금지](https://github.com/5-23/objective/blob/main/terms.md#7링크-부정사용-금지)|
-
+|[7. 링크 부정사용 금지](https://github.com/5-23/objective/blob/main/terms.md#7-링크-부정사용-금지)|
 |[제쟤체계](https://github.com/5-23/objective/blob/main/terms.md#제졔채계)|
 
 # 1. 목적
