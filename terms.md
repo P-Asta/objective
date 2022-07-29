@@ -8,7 +8,7 @@
 |[6. 부정행위 등의 금지](https://github.com/5-23/objective/blob/main/terms.md#6-불법행위-등의-금지)|
 |[7. 링크 부정사용 금지](https://github.com/5-23/objective/blob/main/terms.md#7-링크-부정사용-금지)|
 |[8. 기분나쁜행위 금지](https://github.com/5-23/objective/blob/main/terms.md#8-기분나쁜행위-금지)|
-|[9. 제쟤체계](https://github.com/5-23/objective/blob/main/terms.md#9-제쟤채계)|
+|[9. 제쟤체계](https://github.com/5-23/objective/blob/main/terms.md#9-제쟤체계)|
 
 # 1. 목적
 본 규약의 목적은 {objective} 커뮤니티 내의 `질서 유지` 및 `공공복리를` 실현하고 대한민국 법률과 디스코드 약관의 준수를 장려함으로써 커뮤니티 내 사용자들의 인권을 보호하고 자유롭고 편안한 이용을 보장하기 위함으로 한다.
