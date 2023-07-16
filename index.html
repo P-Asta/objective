@@ -1,91 +1,116 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-    <title>{objective}</title>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta property="og:title" content = "{objective}">
-    <meta property="og:site_name" content = "objective">
-    <link rel = "icon" href = "https://github.com/5-23/objective/blob/main/img/app/icon.png?raw=true">
-
-    <meta name="twitter:card" content = "summary_large_image">
-    <meta property="og:image" content = "https://github.com/5-23/objective/blob/main/img/app/thumbnail.png?raw=true">
-    <meta property="og:image:alt" content = "Bot Preview Image">
-    <meta property="og:image:width" content = "2048">
-    <meta property="og:image:height" content = "1170">
-    
-    <meta property="og:description" content="objective의 공식 사이트 입니다">
-    <meta property="og:url" content="https://objective.tk">
-    
-    <meta name="theme-color" content="#3366FF">
-    <meta name="msapplication-TileColor" content="#3366FF">
-    <meta name="msapplication-navbutton-color" content="#3366FF">
-    
-    <script src = "script/index.js"></script>
+    <title>Document</title>
+    <script src="fullpage/min.js"></script>
     <link rel="stylesheet" href="style/index.css">
-
-    <script src="https://twemoji.maxcdn.com/v/14.0.2/twemoji.min.js" integrity="sha384-32KMvAMS4DUBcQtHG6fzADguo/tpN1Nh6BAJa2QqZc6/i0K+YPQE+bWiqBRAWuFs" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="fullpage/min.css">
 </head>
-<body>
-    <div class="main">
-        <img src="img/discord.svg"><br/>
-        <h1>{objective}</h1>
-    </div>
-
-    <div class = "marginer"></div>
-
-    <div class = "servers">
-        <div class="discord" style="background-image: linear-gradient(45deg , rgb(0, 217, 255) , rgb(0, 255, 234));">
-            <div class="img523" style="background-image: url(img/bots/5-23.png);">
-                <div class="name">디스코드</div>
-                <h2 id = "descriptionDiscordBot">여러가지 봇을 만드는 objective입니다!</h2>
-                <input type="button" value="참가하기" onclick="window.open('https://discord.gg/w2Fw7UeZmY')">
+<body align="center">
+    <header>
+        <div id="title">
+            <img src="img/logo.svg" alt="">
+            <b>bjective</b>
+        </div>
+    </header>
+    <div id="fullpage">
+        <div class="section">
+            <div id="slogan">
+                <h1>개쩌는 슬로건</h1>
+                <h2>objective - 개발팀</h2>
+                <div class="button blue" style="margin-top: 100px;">
+                    서버접속
+                    <img src="img/icon/open.svg" alt="">
+                </div>
             </div>
+            <img src="img/v1.svg" class="wave">
         </div>
-    </div>
-    
-    <div style = "margin-top: 100px;"></div>
 
-
-    <div class = "bots">
-        <div class="bot" style="background-image: linear-gradient(45deg , rgb(114, 114, 114) , rgb(182, 182, 182));">
-            <div class="img523" style="background-image: url(img/bots/5-23.png);">
-                <div class="name">5-23</div>
-                <h2 id = "description523">[load...]개의 서버에서 투표를 하고있는있는 5-23봇!</h2>
-                <input type="button" value="초대하기" onclick="window.open('https://discord.com/oauth2/authorize?client_id=871348411356545057&permissions=8&scope=bot%20applications.commands')">
+        
+        <div class="section" style="background-color: #36f;">
+            <div class="bot">
+                <img src="img/member/5-23.png">
+                <div class="content">
+                    <div class="tag">
+                        <b>5-23</b>
+                        <img src="img/tag-w.svg">
+                    </div>
+                    <p>
+                        혹시.. 투표봇 필요하신가요?
+                        그러면 저를 한번 저를 써보세요!
+                        투표 외에도 잡다한 서버관리 기능도 있어요 :)
+                    </p>
+                    
+                    <div class="button white" style="margin-top: 10px;">
+                        초대하기
+                        <img src="img/icon/opne-b.svg" alt="">
+                    </div>
+                    
+                </div>
             </div>
+            <img src="img/v2.svg" class="wave">
         </div>
 
-        <div class="bot" style="background-image: linear-gradient(45deg , var(--blue) , var(--perple))">
-            <div class="imgHello" style="background-image: url(img/bots/hello.png);">
-                <div class="name">안녕봇</div>
-                <h2 id = "descriptionHELLO">[load...]개의 서버에서 놀아주고있는 안녕봇!</h2>
-                <input type="button" value="초대하기"  onclick="window.open('https://discord.com/oauth2/authorize?client_id=929174234897461248&scope=bot&permissions=8')">
+        <div class="section">
+            <div class="bot">
+                <img src="img/member/oi.png">
+                <div class="content white">
+                    <div class="tag">
+                        <b class="white">oi bot</b>
+                        <img src="img/tag-b.svg">
+                    </div>
+                    <p class="white">
+                        오이봇은 범플랫폼(디스코드, 웹, 로블록스 등) 운영을 목표로 하는 사법 / 경제 / 정치 중점 RP게임봇 이에요. 대한민국, 일본국, 미합중국의 정치 체계을 모델로 하는 가상 국가 「오이팜」에서 직업을 얻거나, 회사를 운영하는 등 다양한 방법으로 부를 축적하고 권력을 차지해 볼 수 있어요.
+                    </p>
+                    
+                    <div class="button blue" style="margin-top: 10px;">
+                        초대하기
+                        <img src="img/icon/open.svg">
+                    </div>
+                    
+                </div>
             </div>
+            <img src="img/v1.svg" class="wave">
         </div>
+        
     </div>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-
-    <div class = "bg">
-        <input class = "main" type="button" value="home" onclick="mainPage()">
-        <div class = "menu" onclick="menuCheck()">
-            <span class = "menuItem"></span>
-            <span class = "menuItem"></span>
-            <span class = "menuItem"></span>
-        </div>
-
-    </div>
-    <div class = "modal" id = "modal">
-        <input type="button" value="팀원" onclick="movePage(`team.html`)">
-        <input type="button" value="규정" onclick="movePage(`terms.html`)">
-    </div>
-
-</body>
+</body> 
 </html>
+
+
+
+
+<script>
+    new fullpage("#fullpage", {
+        autoScrolling: true,
+        scrollHorizontally: true,
+        scrollingSpeed: 500,
+        // sectionsColor: ['#fff', '#f0ffff', '#fffff0'],
+        loopHorizontal: true,
+        onLeave: (before, after) => {
+            // document.querySelectorAll("#sns > a").forEach((e) => {
+            //     e.style.opacity = "0"
+            // })
+            // document.querySelectorAll("#doing > section").forEach((e) => {
+            //     e.style.opacity = "0"
+            //     e.style.transform = "translateY(-10px)"
+            // })
+
+
+
+            // if (after.index == 2) {
+            //     i = 0.5
+            //     document.querySelectorAll("#doing > section").forEach((e) => {
+            //         setTimeout(() => {
+            //             console.log(e)
+            //             e.style.opacity = "1"
+            //             e.style.transform = "translateY(0)"
+            //         }, 500*(i+=0.5))
+            //     })
+            // }
+        }
+    });
+</script>
