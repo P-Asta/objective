@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="fullpage/min.js"></script>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="fullpage/min.css">
+</head>
+<body align="center">
+    <header>
+        <div id="title">
+            <img src="img/logo.svg" alt="">
+            <b>bjective</b>
+        </div>
+    </header>
+    <div id="fullpage">
+        <div class="section">
+            <div id="slogan">
+                <h1>개쩌는 슬로건</h1>
+                <h2>objective - 개발팀</h2>
+                <div class="button blue" style="margin-top: 100px;">
+                    서버접속
+                    <img src="img/icon/open.svg" alt="">
+                </div>
+            </div>
+            <img src="img/v1.svg" class="wave">
+        </div>
+
+        
+        <div class="section" style="background-color: #36f;">
+            <div class="bot">
+                <img src="img/member/5-23.png">
+                <div class="content">
+                    <div class="tag">
+                        <b>5-23</b>
+                        <img src="img/tag-w.svg">
+                    </div>
+                    <p>
+                        혹시.. 투표봇 필요하신가요?
+                        그러면 저를 한번 저를 써보세요!
+                        투표 외에도 잡다한 서버관리 기능도 있어요 :)
+                    </p>
+                    
+                    <div class="button white" style="margin-top: 10px;">
+                        초대하기
+                        <img src="img/icon/opne-b.svg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <img src="img/v2.svg" class="wave">
+        </div>
+
+        <div class="section">
+            <div class="bot">
+                <img src="img/member/oi.png">
+                <div class="content white">
+                    <div class="tag">
+                        <b class="white">oi bot</b>
+                        <img src="img/tag-b.svg">
+                    </div>
+                    <p class="white">
+                        오이봇은 범플랫폼(디스코드, 웹, 로블록스 등) 운영을 목표로 하는 사법 / 경제 / 정치 중점 RP게임봇 이에요. 대한민국, 일본국, 미합중국의 정치 체계을 모델로 하는 가상 국가 「오이팜」에서 직업을 얻거나, 회사를 운영하는 등 다양한 방법으로 부를 축적하고 권력을 차지해 볼 수 있어요.
+                    </p>
+                    
+                    <div class="button blue" style="margin-top: 10px;">
+                        초대하기
+                        <img src="img/icon/open.svg">
+                    </div>
+                    
+                </div>
+            </div>
+            <img src="img/v1.svg" class="wave">
+        </div>
+        
+    </div>
+</body> 
+</html>
+
+
+
+
+<script>
+    new fullpage("#fullpage", {
+        autoScrolling: true,
+        scrollHorizontally: true,
+        scrollingSpeed: 500,
+        // sectionsColor: ['#fff', '#f0ffff', '#fffff0'],
+        loopHorizontal: true,
+        onLeave: (before, after) => {
+            // document.querySelectorAll("#sns > a").forEach((e) => {
+            //     e.style.opacity = "0"
+            // })
+            // document.querySelectorAll("#doing > section").forEach((e) => {
+            //     e.style.opacity = "0"
+            //     e.style.transform = "translateY(-10px)"
+            // })
+
+
+
+            // if (after.index == 2) {
+            //     i = 0.5
+            //     document.querySelectorAll("#doing > section").forEach((e) => {
+            //         setTimeout(() => {
+            //             console.log(e)
+            //             e.style.opacity = "1"
+            //             e.style.transform = "translateY(0)"
+            //         }, 500*(i+=0.5))
+            //     })
+            // }
+        }
+    });
+</script>
